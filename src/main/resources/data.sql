@@ -1,34 +1,34 @@
 insert into User(userid, firstname, lastname, age, emailid, password) 
-values(1,'Siddharth', 'Basu', 22, 'siddharthbasu98@gmail.com', 'siddharth98');
+values(1,'John', 'Wick', 34, 'johnw@gmail.com', 'jwick');
 insert into User(userid, firstname, lastname, age, emailid, password) 
-values(2,'Saphal', 'Patro', 23, 'saphal98@gmail.com', 'saphal98');
+values(2,'Harry', 'Adams', 23, 'harryad@gmail.com', 'hadams');
 insert into User(userid, firstname, lastname, age, emailid, password) 
-values(3,'Vaibhav', 'Harit', 23, 'vharit98@gmail.com', 'vaibhav98');
+values(3,'Vaibhav', 'Harit', 23, 'vaibhav16x@gmail.com', 'vaibhavharit);
 
 
 insert into Category(categoryid, name) 
-values(1,'running shoes');
+values(1,'basketball shoes');
 insert into Category(categoryid, name) 
-values(2,'tennis shoes');
+values(2,'running shoes');
 insert into Category(categoryid, name) 
-values(3,'basketball shoes');
+values(3,'soccer shoes');
 
 
 
 insert into Product(productid, name, brand, price, category_categoryid)
-values(1, 'Nike Revolution', 'Nike', 3734, 1) ; 
+values(1, 'Nike Air Jordans', 'Nike', 7000, 1) ; 
 insert into Product(productid, name, brand, price, category_categoryid)
-values(2, 'Adidas Asweerun', 'Adidas', 4200, 1) ; 
+values(2, 'Adidas Ultra Boost', 'Adidas', 6000, 1) ; 
 insert into Product(productid, name, brand, price, category_categoryid)
-values(3, 'Sketchers Nordic', 'Sketchers', 2800, 1) ;
+values(3, 'Sketchers Memory Foam', 'Sketchers', 4900, 1) ;
 insert into Product(productid, name, brand, price, category_categoryid)
-values(4, 'Adidas Court Adapt', 'Adidas', 3000, 2) ; 
+values(4, 'Adidas Swayde', 'Adidas', 5000, 2) ; 
 insert into Product(productid, name, brand, price, category_categoryid)
-values(5, 'Nike Court Lite', 'Nike', 4200, 2) ; 
+values(5, 'Nike Leap', 'Nike', 4000, 2) ; 
 insert into Product(productid, name, brand, price, category_categoryid)
-values(6, 'Nike Air Jordan 11', 'Nike', 9000, 3) ;
+values(6, 'Nike DRose', 'Nike', 10000, 3) ;
 insert into Product(productid, name, brand, price, category_categoryid)
-values(7, 'Asics Jump', 'Asics', 6700, 3) ;
+values(7, 'Asics Zoom', 'Asics', 4000, 3) ;
 
 
 
@@ -51,4 +51,4 @@ values(6, 1, sysdate(), 3, 4) ;
 insert into Admin(username, password)
 values('root', 'root') ; 
 insert into Admin(username, password)
-values('siddharth98', 'sid98') ; 
+values('admin', 'password') ; 
